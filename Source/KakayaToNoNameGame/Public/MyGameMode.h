@@ -15,9 +15,8 @@ class KAKAYATONONAMEGAME_API AMyGameMode : public AGameMode
 	GENERATED_BODY()
 	
 protected:
-
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
-
 	FString debugMessage;
+
 	virtual void BeginPlay() override;
 };
